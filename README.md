@@ -21,7 +21,7 @@
 You can get a copy of all files used in this tutorial by cloning this repository!
 
 ```shell
-git clone https://github.com/Milena1993/DemoQA.git
+git clone https://github.com/Milena1993/RahulShetty_GreenKard_Project-.git
 ```
 
 Then, make sure to install all the required Python modules using `pip`:

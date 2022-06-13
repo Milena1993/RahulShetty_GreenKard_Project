@@ -12,7 +12,7 @@ class Test():
 
     
     #Assert page is opened (url, title)
-    def test_title(self,driver):
+   def test_order_flow(self, driver):
         action = Actions(driver)
         actual_result = action.get_page(self)
         expected_result = ("GreenKart - veg and fruits kart", "https://rahulshettyacademy.com/seleniumPractise/#/")
@@ -20,8 +20,6 @@ class Test():
         print(actual_result)
 
 
-    def test_order_flow(self, driver):
-        action = Actions(driver)
         action.add_mango_to_card()
     
     #Assert Items and Price are shown as expected in the cart info (top right)

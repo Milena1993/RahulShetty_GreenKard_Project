@@ -19,7 +19,7 @@ class Test():
         assert actual_result == expected_result
         print(actual_result)
 
-
+    #Add "Mango" to the cart
         action.add_mango_to_card()
     
     #Assert Items and Price are shown as expected in the cart info (top right)
